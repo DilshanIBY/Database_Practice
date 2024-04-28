@@ -19,7 +19,9 @@ namespace Database_Practice
         public Form1()
         {
             InitializeComponent();
-        }        // Getting the Connection string
+        }        
+        
+        // Getting the Connection string
         public static string getConnStr()
         {
             string currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
